@@ -1,0 +1,40 @@
+# Ignora archivos .csv
+*.csv
+
+# Archivos binarios y temporales
+*.bin
+*.tmp
+*.log
+*.bak
+
+# Byte-compiled / optimized / DLL files (Python, por ejemplo)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de configuración del sistema
+.DS_Store       # Archivos específicos de macOS
+Desktop.ini     # Archivos específicos de Windows
+Thumbs.db       # Archivos específicos de Windows
+
+# Directorios de construcción y distribución
+build/
+dist/
+
+# Entornos virtuales (Python, por ejemplo)
+venv/
+*.venv/
+env/
+
+# Archivos y directorios de IDEs y editores
+.idea/          # PyCharm
+.vscode/        # Visual Studio Code
+*.sublime*      # Sublime Text
+*.tmproj        # TextMate
+
+# Node modules y logs
+node_modules/
+npm-debug.log*
+
+# Directorios de caché
+.cache/
