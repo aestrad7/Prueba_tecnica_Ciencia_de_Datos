@@ -38,3 +38,4 @@ npm-debug.log*
 
 # Directorios de caché
 .cache/
+.DS_Store
